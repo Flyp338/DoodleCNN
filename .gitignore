@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dataset binaries (raw and processed)
+data/raw/*.npy
+data/processed/
+
+# Trained model checkpoints
+models/checkpoints/*.pth
+
+# OS generated files
+.DS_Store
+Thumbs.db
